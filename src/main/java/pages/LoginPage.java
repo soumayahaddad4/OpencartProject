@@ -39,4 +39,9 @@ loginButton.click();
 public void Register() {
 	ContinueButtonLogin.click();
 }
+public void loginWithRequiredFields(String email,String password) {
+	saisirEmail(email);
+	saisirPassword(password);
+	login();
+}
 }
